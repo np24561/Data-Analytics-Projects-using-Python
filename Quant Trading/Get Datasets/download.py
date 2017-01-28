@@ -1,19 +1,11 @@
+# Using the URL to download a file that contains the prices for the ticker.
 
-
-# We are going to write some code that can download data for a ticker
-# We will be able to specify the start date, end date and the frequency
-# Then the corresponding URL where the price data for this ticker is available
-# Using the URL , we'll be able to download a file that contains the prices for our
-# ticker.
-
-# We'll do this exercise first for Yahoo Finance.
 # We need to understand the URL structure given the start date , end date and frequency.
 
 # Let's study a few different URLs to understand this structure
 
 # ^GSPC ; Daily ; Jan 3 1950 - May 3 2016
 # http://real-chart.finance.yahoo.com/table.csv?s=%5EGSPC&a=00&b=3&c=1950&d=04&e=3&f=2016&g=d&ignore=.csv
-
 
 # ^GSPC ; Weekly ; Jan 3 1950 - May 3 2016
 # http://real-chart.finance.yahoo.com/table.csv?s=%5EGSPC&a=00&b=3&c=1950&d=04&e=3&f=2016&g=w&ignore=.csv
